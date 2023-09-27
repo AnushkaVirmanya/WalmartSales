@@ -1,0 +1,13 @@
+prefix=/Users/anushkavirmanya/Downloads/walmartSales/venv
+exec_prefix=/Users/anushkavirmanya/Downloads/walmartSales/venv
+libdir=/Users/anushkavirmanya/Downloads/walmartSales/venv/lib
+sharedlibdir=/Users/anushkavirmanya/Downloads/walmartSales/venv/lib
+includedir=/Users/anushkavirmanya/Downloads/walmartSales/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
